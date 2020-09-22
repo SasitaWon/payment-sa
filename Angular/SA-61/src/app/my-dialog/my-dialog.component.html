@@ -1,0 +1,20 @@
+<h2 mat-dialog-title>ยอดเงินรวมทั้งหมด : {{data.total}}</h2>
+
+<mat-dialog-content>
+   
+        <p>เงินที่ได้รับ : 
+            <mat-form-field class="example-full-width">
+                <input matInput >
+            </mat-form-field>
+       </p>
+      
+        <p>เงินทอน :  </p>
+      
+  
+  
+</mat-dialog-content>
+
+<mat-dialog-actions align="center">
+    <button mat-button  (click)="save">Save </button>
+  <button mat-button mat-dialog-close >Cancle</button>
+</mat-dialog-actions>
